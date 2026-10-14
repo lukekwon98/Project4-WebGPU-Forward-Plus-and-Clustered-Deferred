@@ -217,7 +217,6 @@ export class ClusteredDeferredRenderer extends renderer.Renderer {
                 ]
             }
         })
-
     }
 
     override draw() {
