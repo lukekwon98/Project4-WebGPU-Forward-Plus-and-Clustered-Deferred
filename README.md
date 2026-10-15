@@ -153,7 +153,7 @@ These are visual observations for the tested view, not mathematically proven ove
 
 ### Performance at Higher Light-List Capacity
 
-With 3,000 scene lights and a capacity of 600 lights per cluster(visually sufficient to avoid missing light artifacts in the tested view) Clustered Deferred achieved an 11.1× GPU speedup over Naive Forward.
+With 3,000 scene lights and a capacity of 600 lights per cluster (visually sufficient to avoid missing light artifacts in the tested view) Clustered Deferred achieved an 11.1× GPU speedup over Naive Forward.
 
 | Scene lights | Maximum lights per cluster | Naive (ms) | Clustered Deferred (ms) | Speedup |
 | ---: | ---: | ---: | ---: | ---: |
