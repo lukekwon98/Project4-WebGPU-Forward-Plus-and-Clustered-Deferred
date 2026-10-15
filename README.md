@@ -3,13 +3,13 @@ WebGL Forward+ and Clustered Deferred Shading
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 4**
 
-* (TODO) YOUR NAME HERE
-* Tested on: (TODO) **Google Chrome 222.2** on
-  Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Luke (Hyuk Che) Kwon
+  * [LinkedIn](https://www.linkedin.com/in/hyukchekwon/), [Personal Website](https://lukekwon98.github.io/), [Github](https://github.com/lukekwon98)
+* Tested on: Windows 11, AMD Ryzen 5 5600X 6-Core Processor @ ~3.7GHz 16GB, Nvidia GeForce RTX 3060 (Compute Capability 8.6)
 
 ### Live Demo
 
-[![](img/thumb.png)](http://TODO.github.io/Project4-WebGPU-Forward-Plus-and-Clustered-Deferred)
+[![](img/thumb.png)]([http://TODO.github.io/Project4-WebGPU-Forward-Plus-and-Clustered-Deferred](https://luke-kwon.com/Project4-WebGPU-Forward-Plus-and-Clustered-Deferred/))
 
 ### Demo Video/GIF
 
@@ -17,8 +17,11 @@ WebGL Forward+ and Clustered Deferred Shading
 
 ### (TODO: Your README)
 
-*DO NOT* leave the README to the last minute! It is a crucial part of the
-project, and we will not be able to grade you without a good README.
+<img width="600" height="371" alt="chart (1)" src="https://github.com/user-attachments/assets/7bc92392-5d21-4ca9-8af8-19076de2274b" />
+<img width="600" height="371" alt="chart (2)" src="https://github.com/user-attachments/assets/804f9f88-7de1-4665-873a-5be16244bcf3" />
+<img width="600" height="371" alt="chart (3)" src="https://github.com/user-attachments/assets/10651ad0-3390-4fd3-b4c9-d3b74e1f2fe0" />
+<img width="600" height="371" alt="chart (4)" src="https://github.com/user-attachments/assets/6ef7961e-0981-4f19-bf99-833196ddd59f" />
+<img width="600" height="371" alt="chart (5)" src="https://github.com/user-attachments/assets/20008d22-4841-4452-81ad-d627eba0eef1" />
 
 This assignment has a considerable amount of performance analysis compared
 to implementation work. Complete the implementation early to leave time!
