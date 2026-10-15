@@ -7,15 +7,11 @@ WebGL Forward+ and Clustered Deferred Shading
   * [LinkedIn](https://www.linkedin.com/in/hyukchekwon/), [Personal Website](https://lukekwon98.github.io/), [Github](https://github.com/lukekwon98)
 * Tested on: Windows 11, AMD Ryzen 5 5600X 6-Core Processor @ ~3.7GHz 16GB, Nvidia GeForce RTX 3060 (Compute Capability 8.6)
 
-### Live Demo
-
-[![WebGPU demo](https://github.com/user-attachments/assets/8affe3d1-9125-47d6-a119-865c3a4868b2)](https://lukekwon98.github.io/Project4-WebGPU-Forward-Plus-and-Clustered-Deferred/)
-
 ### Demo Video/GIF
 
 https://github.com/user-attachments/assets/97f192ca-f856-4765-93db-ce94009e87df
 
-[![](img/video.mp4)](TODO)
+[Live Demo Link](https://lukekwon98.github.io/Project4-WebGPU-Forward-Plus-and-Clustered-Deferred/)
 
 ### (TODO: Your README)
 
