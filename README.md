@@ -17,7 +17,7 @@ This project implements and compares three real-time lighting pipelines written 
 
 ## Implementation Details
 
-### Naive Forward
+### Naive
 
 The naive renderer draws the scene in a single geometry pass. Each shaded fragment evaluates the point lights directly. This provides a simple baseline without a clustering pass or G-buffer, but lighting work increases with both the number of lights and the number of shaded fragments.
 
