@@ -7,7 +7,7 @@ WebGL Forward+ and Clustered Deferred Shading
   * [LinkedIn](https://www.linkedin.com/in/hyukchekwon/), [Personal Website](https://lukekwon98.github.io/), [Github](https://github.com/lukekwon98)
 * Tested on: Windows 11, AMD Ryzen 5 5600X 6-Core Processor @ ~3.7GHz 16GB, Nvidia GeForce RTX 3060 (Compute Capability 8.6)
 
-### Demo Video/GIF
+### Live Demo / Video
 
 https://github.com/user-attachments/assets/97f192ca-f856-4765-93db-ce94009e87df
 
@@ -22,7 +22,9 @@ https://github.com/user-attachments/assets/97f192ca-f856-4765-93db-ce94009e87df
 
 <img width="600" height="371" alt="chart (3)" src="https://github.com/user-attachments/assets/10651ad0-3390-4fd3-b4c9-d3b74e1f2fe0" />
 <img width="600" height="371" alt="chart (4)" src="https://github.com/user-attachments/assets/6ef7961e-0981-4f19-bf99-833196ddd59f" />
-<img width="600" height="371" alt="chart (5)" src="https://github.com/user-attachments/assets/20008d22-4841-4452-81ad-d627eba0eef1" />
+<img width="773" height="830" alt="Linear_Artifacts" src="https://github.com/user-attachments/assets/0f6d2309-94b4-4344-b221-cbfb4152c5e2" />
+<img width="736" height="830" alt="Logarithmic_NoArtifacts" src="https://github.com/user-attachments/assets/b6f9f074-9a6c-4634-8b3b-973e590a7d2e" />
+
 
 This assignment has a considerable amount of performance analysis compared
 to implementation work. Complete the implementation early to leave time!
