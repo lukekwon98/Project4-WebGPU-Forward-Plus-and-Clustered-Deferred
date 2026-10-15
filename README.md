@@ -151,6 +151,14 @@ The following capacities were visually estimated to largely remove missing-light
 
 These are visual observations for the tested view, not mathematically proven overflow-free limits, but they do show a linear relationship between the required number of maximum lights per cluster and the number of lights in the scene.
 
+### Performance at Higher Light-List Capacity
+
+With 3,000 scene lights and a capacity of 600 lights per cluster—visually sufficient to avoid missing-light artifacts in the tested view—Clustered Deferred achieved an 11.1× GPU speedup over Naive Forward.
+
+| Scene lights | Maximum lights per cluster | Naive (ms) | Clustered Deferred (ms) | Speedup |
+| ---: | ---: | ---: | ---: | ---: |
+| 3,000 | 600 | 373.850 | 33.682 | 11.1× |
+
 ## Linear vs Logarithmic
 
 Depth slicing determines how the frustum is divided along the view direction. Both schemes can use the same number of clusters while assigning different depth ranges to each slice.
