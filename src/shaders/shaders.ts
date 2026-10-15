@@ -49,8 +49,22 @@ export const constants = {
 
 //we read the shader code as text, the substitution happens with these functions
 //${...} evaluates the expression in side and inserts its value into the string
-function evalShaderRaw(raw: string) {
-    return eval('`' + raw.replaceAll('${', '${constants.') + '`');
+// function evalShaderRaw(raw: string) {
+//     return eval('`' + raw.replaceAll('${', '${constants.') + '`');
+// }
+function evalShaderRaw(raw: string): string {
+    return raw.replace(
+        /\$\{(\w+)\}/g,
+        (_, name: string) => {
+            const value = constants[name as keyof typeof constants];
+
+            if (value === undefined) {
+                throw new Error(`Missing shader constant: ${name}`);
+            }
+
+            return String(value);
+        }
+    );
 }
 
 const commonSrc: string = evalShaderRaw(commonRaw);
