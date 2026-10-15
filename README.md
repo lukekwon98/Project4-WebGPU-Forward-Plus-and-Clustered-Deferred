@@ -158,6 +158,7 @@ Depth slicing determines how the frustum is divided along the view direction. Bo
 | Linear - Visible Artifacts | Logarithmic - No Visible Artifacts |
 | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/0f6d2309-94b4-4344-b221-cbfb4152c5e2" alt="Linear slicing artifacts" width="400" /> | <img src="https://github.com/user-attachments/assets/b6f9f074-9a6c-4634-8b3b-973e590a7d2e" alt="Logarithmic slicing without visible artifacts" width="400" /> |
+
 Both images use a 32 × 18 × 24 cluster grid, 4 × 4 × 4 workgroups, and a maximum of 100 lights per cluster.
 
 With identical settings, logarithmic depth slicing produced no visible artifacts, while linear slicing did. This likely relates to the large depth range. camera.ts sets the far plane to 1,000, while move_lights.cs.wgsl distributes lights around a much smaller box, from (-10, 0, -5) to (10, 8, 5). Linear slicing concentrates these nearby lights into a few thick slices, increasing the risk of exceeding the per-cluster light capacity. Logarithmic slicing allocates finer slices near the camera, reducing that pressure.
